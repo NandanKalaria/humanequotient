@@ -4,6 +4,8 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 20px;
@@ -210,7 +212,7 @@ text-decoration: none;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: Roboto, sans-serif
+  font-family: Roboto, sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -424,4 +426,48 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 1 */
+.btn-1 {
+	border: 3px solid #404040;
+	color: #404040;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+  border: 3px solid #0085a1;
+	color:white;
+	background: #0085a1;
 }
